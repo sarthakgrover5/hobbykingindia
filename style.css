@@ -1,0 +1,1090 @@
+html, body
+{
+	width: calc(100vw - 18px);
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background-color : #EAEDED;
+}
+/*---------------------------------------------------------------------------------------------NAVBAR-------------------------------------------------------------------------------*/
+#divNavbar
+{
+	position: fixed;
+	top: 0;
+	height: 6vh;
+	min-height: 60px;
+	width: inherit;
+	background-color: #202020;
+	z-index: 2;
+}
+
+			#divMenu
+			{
+				position: absolute;
+				left: 0;
+				height: 6vh;
+				min-height: 60px;
+				width: 6vh;
+				min-width: 60px;
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/sidebar.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+				cursor: pointer;
+			}
+
+			#divLogo
+			{
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);
+				height: 6vh;
+				min-height: 60px;
+				width: 12vw;
+				min-width: 240px;
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/logo/logo.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				cursor: pointer;
+			}
+
+			#divSearch
+			{
+				position: absolute;
+				right: 0;
+				height: 6vh;
+				min-height: 60px;
+				width: 6vh;
+				min-width: 60px;
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/search.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+				cursor: pointer;
+			}
+/*---------------------------------------------------------------------------------------------NAVBAR-------------------------------------------------------------------------------*/
+#divEmpty1
+{
+	height: 6vh;
+	min-height: 60px;
+	width: 100%;
+}
+
+#divEmpty2
+{
+	height: 5px;
+	width: 100%;
+}
+/*----------------------------------------------------------------------------------------------Icons--------------------------------------------------------------------------------*/
+#divIcons
+{
+	position: relative;
+	left: 0.25%;
+	height: 10vh;
+	width: 99.5%;
+}
+
+			.Halo
+			{
+				position: absolute;
+				top: 50%;
+				left: 3.5%;
+				transform: translate(0, -50%);
+				width: 20%;
+				height: 80%;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+				border-radius: 50%;
+				border: 1px solid #f69322;
+			}
+
+			.IconPara
+			{
+				border: 0;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: #f69322;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 32px;
+			}
+
+			.NavAnchors
+			{
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 100%;
+				z-index: 6;
+			}
+
+			#divAccount
+			{
+				position: absolute;
+				top: 2.5%;
+				left: 0.25%;
+				width: 19.5%;
+				height: 95%;
+				background-color: #202020;
+				cursor: pointer;
+			}
+
+						#aAccount
+						{
+							position: absolute;
+							display: block;
+							width: 0;
+							height: 0;
+							z-index: 6;
+						}
+
+						#divAccountHalo
+						{
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/account.png);
+						}
+
+			#divOrders
+			{
+				position: absolute;
+				top: 2.5%;
+				left: 20.25%;
+				width: 19.5%;
+				height: 95%;
+				background-color: #202020;
+				cursor: pointer;
+			}
+
+						#divOrdersHalo
+						{
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/orders.png);
+						}
+
+			#divTracking
+			{
+				position: absolute;
+				top: 2.5%;
+				left: 40.25%;
+				width: 19.5%;
+				height: 95%;
+				background-color: #202020;
+				cursor: pointer;
+			}
+
+						#divTrackingHalo
+						{
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/tracking.png);
+						}
+
+			#divWishlist
+			{
+				position: absolute;
+				top: 2.5%;
+				left: 60.25%;
+				width: 19.5%;
+				height: 95%;
+				background-color: #202020;
+				cursor: pointer;
+			}
+
+						#divWishlistHalo
+						{
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/wishlist.png);
+						}
+
+			#divCart
+			{
+				position: absolute;
+				top: 2.5%;
+				left: 80.25%;
+				width: 19.5%;
+				height: 95%;
+				background-color: #202020;
+				cursor: pointer;
+			}
+
+						#divCartHalo
+						{
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/cart.png);
+						}
+/*----------------------------------------------------------------------------------------------Icons--------------------------------------------------------------------------------*/
+#divEmpty3
+{
+	height: 5px;
+	width: 100%;
+}
+/*---------------------------------------------------------------------------------------------COVER---------------------------------------------------------------------------------*/
+#divCover
+{
+	position: relative;
+	left: 0.25%;
+	height: 41vh;
+	width: 99.5%;
+	background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/covers/cover1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+			#divSliderLeft
+			{
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translate(0, -50%);
+				width: 30px;
+				height: 30px;
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/sliderleft.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#divSliderRight
+			{
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translate(0, -50%);
+				width: 30px;
+				height: 30px;
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/sliderright.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#divLabel
+			{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 300px;
+				height: 50px;
+				background-color: #444444;
+				border-radius: 12px 12px 0 0;
+				user-select: none;
+			}
+
+						#headingLabel
+						{
+							border: 0;
+							margin: 0;
+							padding: 0;
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-52%, -45%);
+							height: 36px;
+							font-family: 'Roboto', sans-serif;
+							letter-spacing: 2px;
+							color: #f69322;
+							cursor: pointer;
+							user-select: none;
+						}
+/*---------------------------------------------------------------------------------------------COVER----------------------------------------------------------------------------------*/
+#divEmpty4
+{
+	position: relative;
+	left: 0.25%;
+	height: 10px;
+	width: 99.5%;
+}
+
+			#divLabelExtender1
+			{
+				position: relative;
+				left: 0;
+				width: 300px;
+				height: inherit;
+				background-color: #444444;
+			}
+/*---------------------------------------------------------------------------------------------MostPop---------------------------------------------------------------------------------*/
+#divMostPopular
+{
+	position: relative;
+	left: 0.25%;
+	height: 30vh;
+	width: 99.5%;
+	background-color: #202020;
+	display: flex;
+}
+
+			.Spacer
+			{
+				position: relative;
+				top: 50%;
+				transform: translate(0, -50%);
+				height: 96%;
+				width: 0.3vw;
+			}
+
+			.Listing
+			{
+				position: relative;
+				top: 50%;
+				transform: translate(0, -50%);
+				height: 96%;
+				width: 10.81vw;
+				background-color: white;
+				cursor: pointer;
+			}
+
+			.PriceBox
+			{
+				position: absolute;
+				bottom: 0;
+				height: 13%;
+				width: 100%;
+				background-color: #202020;
+				opacity: 85%;
+			}
+
+			.Price
+			{
+				border: 0;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				font-weight: bold;
+			}
+
+			#divListing1
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing2
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing3
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing4
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing5
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing6
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing7
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing8
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+
+			#divListing9
+			{
+				background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/listings/product.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+			}
+/*---------------------------------------------------------------------------------------------MostPop---------------------------------------------------------------------------------*/
+#divEmpty5
+{
+	height: 30px;
+	width: 100%;
+}
+/*----------------------------------------------------------------------------------------------Footer---------------------------------------------------------------------------------*/
+#divFooter
+{
+	position: relative;
+	height: 94vh;
+	width: 100%;
+	background-color: #171717;
+}
+
+			#divFooterLabelsContainer
+			{
+				position: absolute;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+						.FooterLabelHeading
+						{
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							font-family: 'Ubuntu', sans-serif;
+							color: #202020;
+							border: 0;
+							margin: 0;
+							padding: 0;
+						}
+
+						#divFooterLabel1
+						{
+							position: absolute;
+							top: 15%;
+							left: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel3
+						{
+							position: absolute;
+							top: 32.9%;
+							left: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel5
+						{
+							position: absolute;
+							top: 51.8%;
+							left: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel7
+						{
+							position: absolute;
+							top: 70%;
+							left: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel2
+						{
+							position: absolute;
+							top: 15%;
+							left: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel4
+						{
+							position: absolute;
+							top: 32.9%;
+							left: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel6
+						{
+							position: absolute;
+							top: 51.8%;
+							left: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel8
+						{
+							position: absolute;
+							top: 70%;
+							left: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel9
+						{
+							position: absolute;
+							top: 15%;
+							right: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel11
+						{
+							position: absolute;
+							top: 32.9%;
+							right: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel13
+						{
+							position: absolute;
+							top: 51.8%;
+							right: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel15
+						{
+							position: absolute;
+							top: 70%;
+							right: 8%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel10
+						{
+							position: absolute;
+							top: 15%;
+							right: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel12
+						{
+							position: absolute;
+							top: 32.9%;
+							right: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel14
+						{
+							position: absolute;
+							top: 51.8%;
+							right: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+						#divFooterLabel16
+						{
+							position: absolute;
+							top: 70%;
+							right: 30.2%;
+							width: 16.25%;
+							height: 8%;
+							background-color: #f7961c;
+							cursor: pointer;
+						}
+
+			#divMapHeadingContainer
+			{
+				position: absolute;
+				right: 0;
+				width: 50%;
+				height: 100%;
+			}
+
+						#divHeadingContainer
+						{
+							position: relative;
+							width: 100%;
+							height: 20%;
+						}
+
+									#headingLocateUs
+									{
+										position: absolute;
+										bottom: 0;
+										left: 50%;
+										transform: translate(-50%, 0);
+										border: 0;
+										margin: 0;
+										padding: 0;
+										color: #f7961c;
+										font-family: 'Ubuntu', sans-serif;
+									}
+
+						#divMapContainer
+						{
+							position: relative;
+							width: 100%;
+							height: 80%;
+						}
+
+									#iframeMap
+									{
+										position: absolute;
+										top: 18%;
+										left: 50%;
+										transform: translate(-50%, -30%);
+									}
+
+			#divIconCopyrightContainer
+			{
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: 10%;
+			}
+
+						#divSocialContainerOuter
+						{
+							width: 100%;
+							height: 50%;
+						}
+
+									#divSocialContainerInner
+									{
+										position: relative;
+										left: 50%;
+										transform: translate(-50%, 0);
+										height: 100%;
+										width: 12%;
+										display: flex;
+									}
+
+												#divFacebook
+												{
+													position: absolute;
+													left: 0;
+													height: 100%;
+													width: 20%;
+													background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/facebook.png);
+													background-repeat: no-repeat;
+													background-size: contain;
+													cursor: pointer;
+												}
+
+												#divTwitter
+												{
+													position: absolute;
+													left: 27%;
+													height: 100%;
+													width: 20%;
+													background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/twitter.png);
+													background-repeat: no-repeat;
+													background-size: contain;
+													cursor: pointer;
+												}
+
+												#divYoutube
+												{
+													position: absolute;
+													right: 27%;
+													height: 100%;
+													width: 20%;
+													background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/youtube.png);
+													background-repeat: no-repeat;
+													background-size: contain;
+													cursor: pointer;
+												}
+
+												#divGoogle
+												{
+													position: absolute;
+													right: 0;
+													height: 100%;
+													width: 20%;
+													background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/googleplus.png);
+													background-repeat: no-repeat;
+													background-size: contain;
+													cursor: pointer;
+												}
+
+						#divCopyrightContainer
+						{
+							width: 100%;
+							height: 50%;
+							text-align: center;
+						}
+
+									#pCopyright
+									{
+										position: relative;
+										top: 50%;
+										transform: translate(0, -50%);
+										border: 0;
+										margin: 0;
+										padding: 0;
+										color: white;
+										font-family: 'Ubuntu', sans-serif;
+									}
+/*----------------------------------------------------------------------------------------------Footer---------------------------------------------------------------------------------*/
+#divShader
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #606162;
+	opacity: 55%;
+	z-index: 4;
+	display: none;
+}
+
+#divUacBox
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 60%;
+	background-color: white;
+	border-radius: 5px;
+	z-index: 4;
+	display: none;
+}
+
+			#headingThanks
+			{
+				position: absolute;
+				top: 10%;
+				left: 10%;
+				border: 0;
+				margin: 0;
+				padding: 0;
+				color: white;
+				font-family: 'Ubuntu', sans-serif;
+				display: none;
+				z-index: 5;
+			}
+
+			#pRegDescription
+			{
+				position: absolute;
+				top: 25%;
+				left: 10%;
+				width: 80%;
+				height: 40%;
+				border: 0;
+				margin: 0;
+				padding: 0;
+				color: white;
+				font-family: 'Ubuntu', sans-serif;
+				display: none;
+				z-index: 5;
+			}
+
+			#divUacBoxForm
+			{
+				position: absolute;
+				right: 0;
+				width: 65%;
+				height: 100%;
+				border-radius: 0 5px 5px 0;
+			}
+
+						#divUacClose
+						{
+							position: absolute;
+							top: 2%;
+							right: 2%;
+							width: 5%;
+							height: 5%;
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/close.png);
+							background-repeat: no-repeat;
+							background-size: contain;
+							cursor: pointer;
+						}
+
+						#divUacBack
+						{
+							position: absolute;
+							top: 2%;
+							left: 2%;
+							width: 5%;
+							height: 5%;
+							background-image: url(https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/uacback.png);
+							background-repeat: no-repeat;
+							background-size: 150% 150%;
+							cursor: pointer;
+							display: none;
+						}
+
+						#divEmailPasswordContainer
+						{
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							width: 75%;
+							height: 75%;
+						}
+
+									#formEmailPasswordContainer
+									{
+										width: 100%;
+										height: 100%;
+									}
+
+												#pEmail
+												{
+													position: absolute;
+													top: 0;
+													left: 4.5%;
+													border: 0;
+													margin: 0;
+													padding: 0;
+													font-family: 'Ubuntu', sans-serif;
+													color: #444444;
+												}
+
+												#inputEmail
+												{
+													position: absolute;
+													top: 7%;
+												  left: 50%;
+													transform: translate(-50%, 0);
+													width: 90%;
+													height: 10%;
+													font-family: 'Lato', sans-serif;
+													font-size: 15px;
+													outline: none;
+													padding-left: 5px;
+												}
+
+												.loader
+												{
+												  border: 2px solid #f3f3f3;
+												  border-radius: 50%;
+												  border-top: 2px solid #3498db;
+												  width: 15px;
+												  height: 15px;
+												  animation: spin 1s linear infinite;
+												}
+
+												@keyframes spin
+												{
+												  0% { transform: rotate(0deg); }
+												  100% { transform: rotate(360deg); }
+												}
+
+												#divEmailCheck
+												{
+													position: absolute;
+													top: 10%;
+													right: 10%;
+													width: 20px;
+													height: 20px;
+													background-image: url("https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/right.png");
+													background-size: contain;
+													background-repeat: no-repeat;
+													z-index: 5;
+													display: none;
+												}
+
+												#pPassword
+												{
+													position: absolute;
+													top: 21%;
+													left: 4.5%;
+													border: 0;
+													margin: 0;
+													padding: 0;
+													font-family: 'Ubuntu', sans-serif;
+													color: #444444;
+												}
+
+												#inputPassword
+												{
+													position: absolute;
+													top: 27%;
+													left: 50%;
+													transform: translate(-50%, 0);
+													width: 90%;
+													height: 10%;
+													font-family: 'Lato', sans-serif;
+													font-size: 15px;
+													outline: none;
+													padding-left: 5px;
+												}
+
+												#divPasswordCheck
+												{
+													position: absolute;
+													top: 30.5%;
+													right: 10%;
+													width: 20px;
+													height: 20px;
+													background-image: url("https://raw.githubusercontent.com/sarthakgrover5/hobbykingindia/main/images/icons/right.png");
+													background-size: contain;
+													background-repeat: no-repeat;
+													z-index: 5;
+													display: none;
+												}
+
+												#divGR
+												{
+													position: absolute;
+													top: 47%;
+													left: 50%;
+													transform: translate(-50%, 0);
+													z-index: 5;
+												}
+
+												#pInvalid
+												{
+													position: absolute;
+													display: none;
+													width: 100%;
+													margin: 0;
+													border: 0;
+													padding: 0;
+													bottom: 5%;
+													color: red;
+													text-align: center;
+												}
+
+												#inputHiddenCheckButton
+												{
+													width: 0;
+													height: 0;
+													margin: 0;
+													border: 0;
+													padding: 0;
+												}
+
+												#btnLogin
+												{
+													position: absolute;
+													top: 75%;
+													left: 50%;
+													transform: translate(-50%, 0);
+													width: 30%;
+													height: 10%;
+													background-color: #f7961c;
+													border: 0;
+													margin: 0;
+													padding: 0;
+													font-family: 'Ubuntu', sans-serif;
+													cursor: pointer;
+												}
+
+						#pForgotPassword
+						{
+							position: absolute;
+							top: 86%;
+							width: 100%;
+							border: 0;
+							margin: 0;
+							padding: 0;
+							font-family: 'Ubuntu', sans-serif;
+							color: #444444;
+							font-size: 15px;
+							cursor: pointer;
+							text-align: center;
+						}
+
+						#pRegister
+						{
+							position: absolute;
+							bottom: 3%;
+							width: 100%;
+							border: 0;
+							margin: 0;
+							padding: 0;
+							font-family: 'Ubuntu', sans-serif;
+							color: #444444;
+							font-size: 15px;
+							cursor: pointer;
+							text-align: center;
+						}
+
+			#divUacBoxGraphic
+			{
+				position: absolute;
+				width: 35%;
+				height: 100%;
+				background-color: #f7961c;
+				border-radius: 5px 0 0 5px;
+			}
+
+						#headingLogin
+						{
+							position: absolute;
+							top: 10%;
+							left: 10%;
+							border: 0;
+							margin: 0;
+							padding: 0;
+							color: white;
+							font-family: 'Ubuntu', sans-serif;
+						}
+
+						#pUacDescription
+						{
+							position: absolute;
+							top: 25%;
+							left: 10%;
+							width: 80%;
+							height: 40%;
+							border: 0;
+							margin: 0;
+							padding: 0;
+							color: white;
+							font-family: 'Ubuntu', sans-serif;
+						}
